@@ -1,2 +1,2 @@
-aws s3 cp --recursive --acl public-read ./www arn:aws:s3:::myawsbucket-844723630086
-aws s3 cp --acl public-read --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./www/index.html arn:aws:s3:::myawsbucket-844723630086
+aws s3 cp --recursive --acl public-read ./www myawsbucket-844723630086
+aws s3 cp --acl public-read --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./www/index.html myawsbucket-844723630086
